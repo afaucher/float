@@ -31,7 +31,7 @@ namespace HoverCrafty {
         static const float ship_length = 10;
         static const float ship_width = 5;
         static const float ship_height = 1;
-        static const float thruster_max_length = 2;
+        static const float thruster_max_length = 5;
         
     public:
         Player(GameArena * game_arena);
