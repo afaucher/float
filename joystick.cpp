@@ -24,6 +24,7 @@
 #include <string.h>
 #include <errno.h>
 #include <sys/types.h>
+#include <unistd.h>
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <string.h>

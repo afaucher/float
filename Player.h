@@ -9,10 +9,10 @@ namespace HoverCrafty {
     private:
         GameArena * game_arena;
         dBodyID body_id;
-        static const int ray_count = 10;
-        static const float max_thrust = 6.0f;
-        static const float ship_prop_height = 0.0f;
-        static const float jump_thrust = 3000.0f;
+        static constexpr int ray_count = 10;
+        static constexpr float max_thrust = 6.0f;
+        static constexpr float ship_prop_height = 0.0f;
+        static constexpr float jump_thrust = 3000.0f;
         dGeomID thruster_rays[ray_count][ray_count];
         float distance_found[ray_count][ray_count];
         float thrust_force[ray_count][ray_count];
@@ -28,10 +28,10 @@ namespace HoverCrafty {
         
         GameArena::dCollisionData thruster_ray_collision_data;
         
-        static const float ship_length = 10;
-        static const float ship_width = 5;
-        static const float ship_height = 1;
-        static const float thruster_max_length = 5;
+        static constexpr float ship_length = 10;
+        static constexpr float ship_width = 5;
+        static constexpr float ship_height = 1;
+        static constexpr float thruster_max_length = 5;
         
     public:
         Player(GameArena * game_arena);
